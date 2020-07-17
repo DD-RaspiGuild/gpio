@@ -1,0 +1,2 @@
+etric_name,metric_type,interval,unit_name,per_unit_name,description,orientation,integration,short_name
+gpio.SDA.1,gauge,,state,,"The state value (HIGH/LOW) of the SDA pin - Physical:3, BCM:2, wPi:8",,,gpio SDA state

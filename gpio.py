@@ -64,6 +64,6 @@ class GpioCheck(AgentCheck):
                 physical = pin[6].strip()
                 BCM = pin[1].strip()
                 wPi = pin[2].strip()
-                self.gauge('gpio.' + name, pin_state, tags=['Physical:' + physical, 'BCM:' + BCM, 'wPi:' + wPi])
+                self.gauge('gpio.' + name, pin_state, tags=['Physical:' + physical, 'BCM:' + BCM, 'wPi:' + wPi, 'mode:' + mode])
 
 
